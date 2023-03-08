@@ -3,8 +3,7 @@ form caption("ProvaSynth 0.4.0-a.1") size(800, 660), guiMode("queue"), pluginId(
 keyboard bounds(6, 554, 785, 96) channel("keyboard1") mouseOverKeyColour(255, 173, 67, 106) keySeparatorColour(0, 0, 0, 19)
 image bounds(26, 54, 409, 90) channel("logo"), file("ui/logo.png")
 label channel("version"), bounds(206, 114, 138, 23) text("Alpha 0.4.0"), fontSize(14) fontColour(206,104,171, 255)
-infobutton file("ui/changelog.txt") bounds(216, 158, 114, 19) channel("4info"), text("Changelog alpha ver.") , fontColour:1(206,104,171,  255) colour:0(206,104,171,  255) 
-infobutton file("https://drive.google.com/file/d/1Jzf3I743dgxwhbebXxAlHxj2KeL7IyFC/view?usp=sharing") bounds(138, 158, 74, 19) channel("manual"), text("Manual") , fontColour:1(206,104,171,  255) colour:0(206,104,171, 255) 
+infobutton file("https://github.com/ghostvita/ProvaSynth") bounds(216, 158, 114, 19) channel("4info"), text("Changelog/GitHub") , fontColour:1(206,104,171,  255) colour:0(206,104,171,  255)  
 
 ;testo
 
